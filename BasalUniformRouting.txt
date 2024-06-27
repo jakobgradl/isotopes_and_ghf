@@ -1,0 +1,11 @@
+
+
+
+BasalUniformRouting.npy is a 6 x md.mesh.numberofvertices x 3 3d-array
+6 rows for the floatation fraction [0.6, 0.7, 0.8, 0.9, 1.0, 1.1]
+each row contains a model field
+3 slices for bua, bvol, and bflux
+
+BasalUniformRoutingRvVw.npy is a 6 x md.mesh.numberofvertices x 2 3d-array of dtype=object
+first slice contains receiving vertices for each floatation, second slice contains respective vertex weights
+each entry [x,y,z] contains an np.array of variable length that lists the vertex numbers/weights (hence dtype=object)
