@@ -1,5 +1,17 @@
 # GHF-from-isotopes
 Refining Greenland Geothermal heat flow through stable isotope analysis
+Gradl et al., manuscript submitted to The Cryosphere
+
+--------------
+
+Code files for the subglacial hydrological routing and isotope transport
+The implemented routing algorithm is the MD-inf algorithm of Seibert & McGlynn, 2007, https://doi.org/10.1029/2006WR005128.
+We adapt their algorithm to the irregular triangular ISSM-mesh used in our study. 
+
+Code files published on GitHub via www.zenodo.org
+https://doi.org/10.5281/zenodo.12575887
+
+--------------
 
 This is the order in which to run the different funcitons:
 
