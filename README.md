@@ -10,10 +10,6 @@ The implemented routing algorithm is the MD-inf algorithm of Seibert & McGlynn, 
 
 We adapt their algorithm to the irregular triangular ISSM-mesh used in our study. 
 
-Code files published on GitHub via www.zenodo.org
-
-https://doi.org/10.5281/zenodo.12575887
-
 --------------
 
 This is the order in which to run the different funcitons:
