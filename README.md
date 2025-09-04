@@ -29,14 +29,21 @@ basaliso, vertexiso = basalisotopes(md, av, rv_new, vw_new, va, melt_new, bvol, 
 md: loaded ISSM model providing the mesh geometry ery
 
 av: adjacent vertices (mesh vertices adjacent to each vertex)
+
 rv: receiving vertices (vertices receiving flux from a given vertex)
+
 vw: vertex weights (fraction of flux received by every rv from a given vertex)
 
 bua: basal upstream area (area upstream of a given vertex)
+
 bvol: basal volume (accumulated water volume at each vertex, not normalized!)
+
 bflux: basal flux (accumulated volume normalized by the associated vertex area)
+
 rv_new, vw_new, melt_new: correct spurious sources/sinks arising from the irregular mesh geometry
 
 age: age of basal ice
+
 isocomp: isotope composition of the basal ice
+
 basaliso: isotope composition of the basal meltwater
